@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #667085;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  height: 826px;
+  display: flex;
+  margin: 0 auto;
+}
+.container aside {
+  background-color: #fff;
+  width: 280px;
+  height: 100%;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container aside .head_buttons div {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+.container aside .head_buttons div p {
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.container aside .head_buttons .page_1 img {
+  color: #667085;
+}
+.container aside .footer_buttons {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+.container aside .footer_buttons p {
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.container main {
+  width: 1160px;
+  background-color: #f6f7fa;
+}
+.container main h1 {
+  padding-top: 44px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  border-bottom: 1px solid #eaecf0;
+}
+.container main .main_container {
+  padding: 80px 62px 37px 62px;
+}
+.container main .main_container .main_chart {
+  display: flex;
+}
+.container main .main_container .main_chart div:nth-child(1) div, .container main .main_container .main_chart div:nth-child(2) div {
+  background-color: #1FC0AE;
+}
+.container main .main_container .main_chart div .round {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #eaecf0;
+}
+.container main .main_container .main_chart div p {
+  text-align: center;
+}
+.container main .main_container .main_chart div + div {
+  margin-left: 144px;
+}/*# sourceMappingURL=index.css.map */

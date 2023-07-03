@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+@mixin fontMixin($size, $weight, $height) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #667085;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 1440px;
+  height: 826px;
+  display: flex;
+  margin: 0 auto;
+  aside {
+    background-color: #fff;
+    width: 280px;
+    height: 100%;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .head_buttons {
+      div {
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+        p {
+          padding-left: 12px;
+          @include fontMixin(14px, 500, 20px);
+        }
+      }
+      .page_1 {
+        img {
+          color: #667085;
+        }
+      }
+    }
+    .footer_buttons {
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      p {
+        padding-left: 12px;
+        @include fontMixin(14px, 500, 20px);
+      }
+    }
+  }
+  main {
+    width: calc(1440px - 280px);
+    background-color: #f6f7fa;
+
+    h1 {
+      padding-top: 44px;
+      text-align: center;
+      @include fontMixin(48px, 400, 58px);
+      border-bottom: 1px solid #eaecf0;
+    }
+    .main_container {
+      padding: 80px 62px 37px 62px;
+      .main_chart {
+        display: flex;
+        div {
+          &:nth-child(1),  &:nth-child(2) {
+            div {
+              background-color: #1FC0AE;
+            }
+          }
+          .round {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background-color: #eaecf0;
+          }
+
+          p {
+            text-align: center;
+          }
+        }
+        div + div {
+          margin-left: 144px;
+        }
+      }
+    }
+  }
+}

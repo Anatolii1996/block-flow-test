@@ -69,9 +69,10 @@ body {
       .main_chart {
         display: flex;
         div {
-          &:nth-child(1),  &:nth-child(2) {
+          &:nth-child(1),
+          &:nth-child(3) {
             div {
-              background-color: #1FC0AE;
+              background-color: #1fc0ae;
             }
           }
           .round {
@@ -85,8 +86,17 @@ body {
             text-align: center;
           }
         }
-        div + div {
+        .round_wrap + .round_wrap {
           margin-left: 144px;
+        }
+        .divide {
+          width: 144px;
+          padding-top: 40px;
+          hr {
+            border-width: 1px;
+            border-color: #1fc0ae;
+            border-style: dashed;
+          }
         }
       }
     }

@@ -68,8 +68,8 @@ body {
 .container main .main_container .main_chart {
   display: flex;
 }
-.container main .main_container .main_chart div:nth-child(1) div, .container main .main_container .main_chart div:nth-child(2) div {
-  background-color: #1FC0AE;
+.container main .main_container .main_chart div:nth-child(1) div, .container main .main_container .main_chart div:nth-child(3) div {
+  background-color: #1fc0ae;
 }
 .container main .main_container .main_chart div .round {
   width: 72px;
@@ -80,6 +80,15 @@ body {
 .container main .main_container .main_chart div p {
   text-align: center;
 }
-.container main .main_container .main_chart div + div {
+.container main .main_container .main_chart .round_wrap + .round_wrap {
   margin-left: 144px;
+}
+.container main .main_container .main_chart .divide {
+  width: 144px;
+  padding-top: 40px;
+}
+.container main .main_container .main_chart .divide hr {
+  border-width: 1px;
+  border-color: #1fc0ae;
+  border-style: dashed;
 }/*# sourceMappingURL=index.css.map */

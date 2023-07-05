@@ -23,13 +23,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.container aside .head_buttons div {
+.container aside .head_buttons .aside_button {
   cursor: pointer;
   padding: 8px 12px;
   display: flex;
   align-items: center;
 }
-.container aside .head_buttons div p {
+.container aside .head_buttons .aside_button p {
   padding-left: 12px;
   font-size: 14px;
   font-weight: 500;
@@ -38,15 +38,16 @@ body {
 .container aside .head_buttons .page_1 img {
   color: #667085;
 }
-.container aside .footer_buttons {
+.container aside .footer_button {
   padding: 8px 12px;
   position: fixed;
+  width: 18%;
   top: 90%;
   cursor: pointer;
   display: flex;
   align-items: center;
 }
-.container aside .footer_buttons p {
+.container aside .footer_button p {
   padding-left: 12px;
   font-size: 14px;
   font-weight: 500;
@@ -154,7 +155,8 @@ body {
 .container main .main_container .order_section {
   border-radius: 12px;
   background-color: #fff;
-  padding: 20px 20px 8px 20px;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 .container main .main_container .order_section h2 {
   font-size: 20px;
@@ -164,7 +166,23 @@ body {
 .container main .main_container .order_section label {
   padding-top: 20px;
   display: inline-block;
+  color: #8E99AB;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .container main .main_container .order_section select {
   width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #8E99AB;
+  border-color: #EAECF0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.view {
+  background-color: rgba(31, 192, 174, 0.19);
+  border-radius: 6px;
 }/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,5 @@
 let asside_buttons = document.querySelectorAll(".aside_button");
-let main = document.querySelector("main");
+// let main = document.querySelector("main");
 let togglerButton = document.querySelector(".navbar-toggler");
 let containerPage = document.querySelector(".container_page");
 
@@ -23,9 +23,14 @@ for (const button of asside_buttons) {
     })
 }
 
-togglerButton.addEventListener("click", () => {
-    containerPage.classList.toggle("column");
-})
 
+
+const checkWindowSize = () => {
+    if (window.innerWidth > 991) {
+        containerPage.classList.remove("column");
+    }
+}
+
+window.addEventListener("resize", checkWindowSize);
 
 

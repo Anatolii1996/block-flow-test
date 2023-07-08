@@ -51,7 +51,7 @@ body {
       width: 18%;
       top: 90%;
       cursor: pointer;
-      display: flex ;
+      display: flex;
       p {
         padding-left: 12px;
         @include fontMixin(14px, 500, 20px);
@@ -82,7 +82,7 @@ body {
           }
           .round {
             width: 100%;
-           aspect-ratio: 1;
+            aspect-ratio: 1;
             border-radius: 50%;
             background-color: #eaecf0;
           }
@@ -155,7 +155,7 @@ body {
       }
       .order_section {
         @include sectionMixin();
-        padding: 20px ;
+        padding: 20px;
         margin-bottom: 40px;
         h2 {
           @include fontMixin(20px, 500, 27px);
@@ -163,42 +163,39 @@ body {
         label {
           padding-top: 20px;
           display: inline-block;
-          color: #8E99AB;
-          @include fontMixin(12px,400 ,24px );
+          color: #8e99ab;
+          @include fontMixin(12px, 400, 24px);
         }
         select {
           width: 100%;
           padding: 8px 12px;
           border-radius: 8px;
-          color:  #8E99AB;
-          border-color: #EAECF0;
-          @include fontMixin(16px,400 ,24px );
-
-
+          color: #8e99ab;
+          border-color: #eaecf0;
+          @include fontMixin(16px, 400, 24px);
         }
       }
     }
   }
 }
 
-.view{
-  background-color:  rgba(31, 192, 174, 0.19);
+.view {
+  background-color: rgba(31, 192, 174, 0.19);
   border-radius: 6px;
 }
 
-.column{
-  flex-direction: column;
-}
-
-@media (max-width: 992px){
-  .container_page aside{
+@media (max-width: 992px) {
+  .container_page {
+    flex-direction: column;
+  }
+  .container_page aside {
     width: 95px;
   }
-  .container_page aside .footer_button{
+  .container_page aside .footer_button {
     position: static;
     width: auto;
   }
-  .container_page main{
+  .container_page main {
     width: auto;
   }
 }

@@ -19,12 +19,11 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.container {
+.container_page {
   display: flex;
   aside {
     background-color: #fff;
     width: 280px;
-    height: 100vh;
     padding: 32px 16px;
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@ body {
       top: 90%;
       cursor: pointer;
       display: flex ;
-      align-items: center;
       p {
         padding-left: 12px;
         @include fontMixin(14px, 500, 20px);
@@ -186,4 +184,21 @@ body {
 .view{
   background-color:  rgba(31, 192, 174, 0.19);
   border-radius: 6px;
+}
+
+.column{
+  flex-direction: column;
+}
+
+@media (max-width: 992px){
+  .container_page aside{
+    width: 95px;
+  }
+  .container_page aside .footer_button{
+    position: static;
+    width: auto;
+  }
+  .container_page main{
+    width: auto;
+  }
 }

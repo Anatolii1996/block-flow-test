@@ -9,52 +9,50 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.container {
+.container_page {
   display: flex;
 }
-.container aside {
+.container_page aside {
   background-color: #fff;
   width: 280px;
-  height: 100vh;
   padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container aside .head_buttons .aside_button {
+.container_page aside .head_buttons .aside_button {
   cursor: pointer;
   padding: 8px 12px;
   display: flex;
 }
-.container aside .head_buttons .aside_button p {
+.container_page aside .head_buttons .aside_button p {
   padding-left: 12px;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
-.container aside .head_buttons .page_1 img {
+.container_page aside .head_buttons .page_1 img {
   color: #667085;
 }
-.container aside .footer_button {
+.container_page aside .footer_button {
   padding: 8px 12px;
   position: fixed;
   width: 18%;
   top: 90%;
   cursor: pointer;
   display: flex;
-  align-items: center;
 }
-.container aside .footer_button p {
+.container_page aside .footer_button p {
   padding-left: 12px;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
-.container main {
+.container_page main {
   width: calc(100% - 280px);
   background-color: #f6f7fa;
 }
-.container main h1 {
+.container_page main h1 {
   padding-top: 44px;
   text-align: center;
   font-size: 48px;
@@ -62,72 +60,72 @@ body {
   line-height: 58px;
   border-bottom: 1px solid #eaecf0;
 }
-.container main .main_container {
+.container_page main .main_container {
   padding: 32px 62px 37px 62px;
 }
-.container main .main_container .main_chart {
+.container_page main .main_container .main_chart {
   padding: 48px 10% 48px 0;
   display: flex;
 }
-.container main .main_container .main_chart div:nth-child(1) div, .container main .main_container .main_chart div:nth-child(3) div {
+.container_page main .main_container .main_chart div:nth-child(1) div, .container_page main .main_container .main_chart div:nth-child(3) div {
   background-color: #1fc0ae;
 }
-.container main .main_container .main_chart div .round {
+.container_page main .main_container .main_chart div .round {
   width: 100%;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: #eaecf0;
 }
-.container main .main_container .main_chart div p {
+.container_page main .main_container .main_chart div p {
   text-align: center;
 }
-.container main .main_container .main_chart .round_wrap + .round_wrap {
+.container_page main .main_container .main_chart .round_wrap + .round_wrap {
   margin-left: 15%;
 }
-.container main .main_container .main_chart .divide {
+.container_page main .main_container .main_chart .divide {
   width: 15%;
   padding-top: 40px;
 }
-.container main .main_container .main_chart .divide hr {
+.container_page main .main_container .main_chart .divide hr {
   border-width: 1px;
   border-color: #1fc0ae;
   border-style: dashed;
 }
-.container main .main_container .middle_section {
+.container_page main .main_container .middle_section {
   display: flex;
   margin-bottom: 15px;
 }
-.container main .main_container .middle_section .info {
+.container_page main .main_container .middle_section .info {
   width: calc(50% - 10px);
   border-radius: 12px;
   background-color: #fff;
   padding: 20px 20px 8px 20px;
   margin-right: 20px;
 }
-.container main .main_container .middle_section .info h3 {
+.container_page main .main_container .middle_section .info h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 27px;
 }
-.container main .main_container .middle_section .info div {
+.container_page main .main_container .middle_section .info div {
   display: flex;
   justify-content: space-between;
 }
-.container main .main_container .middle_section .info div p {
+.container_page main .main_container .middle_section .info div p {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
-.container main .main_container .middle_section .info div p:last-of-type {
+.container_page main .main_container .middle_section .info div p:last-of-type {
   color: #8e99ab;
 }
-.container main .main_container .middle_section .info div + div {
+.container_page main .main_container .middle_section .info div + div {
   padding-top: 12px;
 }
-.container main .main_container .middle_section .info h3 + div {
+.container_page main .main_container .middle_section .info h3 + div {
   padding-top: 23px;
 }
-.container main .main_container .middle_section .delivery {
+.container_page main .main_container .middle_section .delivery {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -135,13 +133,13 @@ body {
   background-color: #fff;
   width: calc(50% - 10px);
 }
-.container main .main_container .middle_section .delivery div h3 {
+.container_page main .main_container .middle_section .delivery div h3 {
   font-size: 24px;
   font-weight: 800;
   line-height: 33px;
   color: #1fc0ae;
 }
-.container main .main_container .middle_section .delivery div p {
+.container_page main .main_container .middle_section .delivery div p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -149,18 +147,18 @@ body {
   text-align: center;
   padding-top: 5px;
 }
-.container main .main_container .order_section {
+.container_page main .main_container .order_section {
   border-radius: 12px;
   background-color: #fff;
   padding: 20px;
   margin-bottom: 40px;
 }
-.container main .main_container .order_section h2 {
+.container_page main .main_container .order_section h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 27px;
 }
-.container main .main_container .order_section label {
+.container_page main .main_container .order_section label {
   padding-top: 20px;
   display: inline-block;
   color: #8E99AB;
@@ -168,7 +166,7 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-.container main .main_container .order_section select {
+.container_page main .main_container .order_section select {
   width: 100%;
   padding: 8px 12px;
   border-radius: 8px;
@@ -182,4 +180,21 @@ body {
 .view {
   background-color: rgba(31, 192, 174, 0.19);
   border-radius: 6px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .container_page aside {
+    width: 95px;
+  }
+  .container_page aside .footer_button {
+    position: static;
+    width: auto;
+  }
+  .container_page main {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.css.map */

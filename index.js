@@ -1,5 +1,4 @@
 let asside_buttons = document.querySelectorAll(".aside_button");
-// let main = document.querySelector("main");
 let togglerButton = document.querySelector(".navbar-toggler");
 let containerPage = document.querySelector(".container_page");
 

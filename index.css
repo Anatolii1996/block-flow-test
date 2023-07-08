@@ -69,15 +69,15 @@ body {
   padding: 32px 62px 37px 62px;
 }
 .container main .main_container .main_chart {
-  padding: 48px 100px 48px 0;
+  padding: 48px 10% 48px 0;
   display: flex;
 }
 .container main .main_container .main_chart div:nth-child(1) div, .container main .main_container .main_chart div:nth-child(3) div {
   background-color: #1fc0ae;
 }
 .container main .main_container .main_chart div .round {
-  width: 72px;
-  height: 72px;
+  width: 100%;
+  aspect-ratio: 1;
   border-radius: 50%;
   background-color: #eaecf0;
 }
@@ -85,10 +85,10 @@ body {
   text-align: center;
 }
 .container main .main_container .main_chart .round_wrap + .round_wrap {
-  margin-left: 144px;
+  margin-left: 15%;
 }
 .container main .main_container .main_chart .divide {
-  width: 144px;
+  width: 15%;
   padding-top: 40px;
 }
 .container main .main_container .main_chart .divide hr {

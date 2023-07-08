@@ -75,7 +75,7 @@ body {
     .main_container {
       padding: 32px 62px 37px 62px;
       .main_chart {
-        padding: 48px 100px 48px 0;
+        padding: 48px 10% 48px 0;
         display: flex;
         div {
           &:nth-child(1),
@@ -85,8 +85,9 @@ body {
             }
           }
           .round {
-            width: 72px;
-            height: 72px;
+            width: 100%;
+           aspect-ratio: 1;
+            // height: 72px;
             border-radius: 50%;
             background-color: #eaecf0;
           }
@@ -96,10 +97,10 @@ body {
           }
         }
         .round_wrap + .round_wrap {
-          margin-left: 144px;
+          margin-left: 15%;
         }
         .divide {
-          width: 144px;
+          width: 15%;
           padding-top: 40px;
           hr {
             border-width: 1px;

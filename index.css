@@ -20,6 +20,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.container_page aside .head_buttons {
+  width: 100%;
+}
 .container_page aside .head_buttons .aside_button {
   cursor: pointer;
   padding: 8px 12px;
@@ -37,7 +40,7 @@ body {
 .container_page aside .footer_button {
   padding: 8px 12px;
   position: fixed;
-  width: 18%;
+  width: 210px;
   top: 90%;
   cursor: pointer;
   display: flex;

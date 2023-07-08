@@ -29,11 +29,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     .head_buttons {
+      width: 100%;
       .aside_button {
         cursor: pointer;
         padding: 8px 12px;
         display: flex;
-        // align-items: center;
         p {
           padding-left: 12px;
           @include fontMixin(14px, 500, 20px);
@@ -48,7 +48,7 @@ body {
     .footer_button {
       padding: 8px 12px;
       position: fixed;
-      width: 18%;
+      width: calc(280px * 0.75);
       top: 90%;
       cursor: pointer;
       display: flex;

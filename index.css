@@ -10,9 +10,7 @@ body {
 }
 
 .container {
-  width: 100%;
   display: flex;
-  margin: 0 auto;
 }
 .container aside {
   background-color: #fff;
@@ -27,7 +25,6 @@ body {
   cursor: pointer;
   padding: 8px 12px;
   display: flex;
-  align-items: center;
 }
 .container aside .head_buttons .aside_button p {
   padding-left: 12px;

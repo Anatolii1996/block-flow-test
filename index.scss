@@ -20,9 +20,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .container {
-  width: 100%;
   display: flex;
-  margin: 0 auto;
   aside {
     background-color: #fff;
     width: 280px;
@@ -36,7 +34,7 @@ body {
         cursor: pointer;
         padding: 8px 12px;
         display: flex;
-        align-items: center;
+        // align-items: center;
         p {
           padding-left: 12px;
           @include fontMixin(14px, 500, 20px);
@@ -54,7 +52,7 @@ body {
       width: 18%;
       top: 90%;
       cursor: pointer;
-      display: flex;
+      display: flex ;
       align-items: center;
       p {
         padding-left: 12px;
@@ -87,7 +85,6 @@ body {
           .round {
             width: 100%;
            aspect-ratio: 1;
-            // height: 72px;
             border-radius: 50%;
             background-color: #eaecf0;
           }
